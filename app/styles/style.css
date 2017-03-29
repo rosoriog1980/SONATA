@@ -63,7 +63,7 @@ p{margin: 10px 0;}
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
 html, body {width:100%; padding:0; margin:0;}
-body {font: 14px/25px Arial, Helvetica, sans-serif;font-family: 'Open Sans', sans-serif;background:#F6F8F7;padding:0 40px ;}
+body {font: 14px/25px Arial, Helvetica, sans-serif;font-family: 'Open Sans', sans-serif;background:rgba(163, 243, 61, 0.09);padding:0 40px ;}
 body .wrap-body{}
 
 /* ---------------------------------------------------------------------------- */
@@ -75,7 +75,7 @@ header{text-align: center;}
 /* -------------------------------------Container------------------------------ */
 /* ---------------------------------------------------------------------------- */
 #container {}
-#container .wrap-container{background: #ffffff;padding: 20px;}
+#container .wrap-container{background: #f6fded;padding: 20px;}
 
 /* ---content-box--- */
 .content-box {}
@@ -172,7 +172,7 @@ article img{}
 /* ---------------------------------------------------------------------------- */
 footer{text-align: center;}
 
-footer .wrap-footer{background-color: transparent;padding: 10px;position: relative;}
+footer .wrap-footer{background-color: rgba(0, 0, 0, 0.22) ;padding: 10px;position: relative;}
 footer a{color:#666;}
 footer p{margin-top: 20px;}
 footer a:hover{text-decoration: underline;}
@@ -195,7 +195,7 @@ footer ul.quick-link li{margin-top: 20px;}
 .crumbs ul li:first-child a {border-top-left-radius: 6px; border-bottom-left-radius: 6px;}
 .crumbs ul li:first-child a:before {display: none; }
 .crumbs ul li:last-child a {padding-right: 50px;border-top-right-radius: 6px; border-bottom-right-radius: 6px;}
-.crumbs ul li:last-child a:after {display: none; }		
+.crumbs ul li:last-child a:after {display: none; }
 .crumbs ul li a:hover {background: #222;color: #fff;}
 .crumbs ul li a:hover:after {border-left-color: #222;}
 
@@ -222,7 +222,7 @@ a.button:hover{background-color: #fff;color: #222;border: 1px solid #ccc;}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------Zoom-Effect---------------------------------- */
-/* ---------------------------------------------------------------------------- */	
+/* ---------------------------------------------------------------------------- */
 .item-container {
 	position: relative;
 	overflow: hidden;
@@ -257,7 +257,7 @@ a.button:hover{background-color: #fff;color: #222;border: 1px solid #ccc;}
 	height: 100%;
 	padding: 35px 30px;
 	-webkit-transition: 0.6s;transition: 0.6s;
-	
+
 }
 .item-caption:hover{opacity: 0.9;}
 
@@ -309,7 +309,7 @@ a.button:hover{background-color: #fff;color: #222;border: 1px solid #ccc;}
 /* ---------------------------------------------------------------------------- */
 #searchtext input {
 	background: none repeat scroll 0 0 #fff;
-	
+
 	color: #5e5e5e;
 	display: block;
 	font-family: arial, sans-serif;
